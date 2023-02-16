@@ -163,7 +163,29 @@
       </div>
     </header>
     <!-- ====== Header End ====== -->
-
+    <section id="features" class="ud-features">
+      <div class="container">
+        <div class="row">
+          <% products.map((item) => { %>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
+              <div class="ud-feature-icon">
+                <i class="lni lni-gift"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title"><%=item.title%></h3>
+                <p>รายละเอียด: <%=item.description%></p>
+                <p class="ud-feature-desc">ราคา: <%=item.price%></p>
+                <a href="javascript:void(0)" class="ud-feature-link">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <% })%>
+        </div>
+      </div>
+    </section>
     <!-- ====== Footer Start ====== -->
     <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
       <div class="shape shape-1">
