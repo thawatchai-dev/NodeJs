@@ -156,32 +156,28 @@
     <section id="features" class="ud-features">
       <div class="container">
         <div class="row">
-          <% products.map((item) => { %>
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
               <div class="ud-feature-icon">
                 <i class="lni lni-gift"></i>
               </div>
               <div class="ud-feature-content">
-                <a href="/products/<%=item.id%>">
-                  <h3 class="ud-feature-title"><%=item.title%></h3>
-                </a>
-                <p>รายละเอียด: <%=item.description%></p>
-                <p class="ud-feature-desc">ราคา: <%=item.price%></p>
+                <h3 class="ud-feature-title"><%=product.title%></h3>
+                <p>รายละเอียด: <%=product.description%></p>
+                <p class="ud-feature-desc">ราคา: <%=product.price%></p>
                 <a href="javascript:void(0)" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
             </div>
           </div>
-          <% })%>
         </div>
       </div>
     </section>
     <!-- ====== Footer Start ====== -->
     <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
       <div class="shape shape-1">
-        <img src="../../public/assets/images/footer/shape-1.svg" alt="shape" />
+        <img src="assets/images/footer/shape-1.svg" alt="shape" />
       </div>
       <div class="shape shape-2">
         <img src="assets/images/footer/shape-2.svg" alt="shape" />

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "RTX4090",
+    "description": "การ์ดจอ RTX4090",
+    "price": 49900
+  },
+  {
+    "id": 2,
+    "title": "RTX4080",
+    "description": "การ์ดจอ RTX4080",
+    "price": 39900
+  },
+  {
+    "id": 3,
+    "title": "RTX4070",
+    "description": "การ์ดจอ RTX4070",
+    "price": 29900
+  },
+  {
+    "id": 4,
+    "title": "RTX4060",
+    "description": "การ์ดจอ RTX4060",
+    "price": 19900
+  }
+]
